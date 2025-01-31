@@ -15,6 +15,7 @@ class MobileDashboard extends StatelessWidget {
           HeaderMobile(),
           HeroSectionMobile(),
           Expanded(child: ImageGridMobile()),
+          SizedBox(height: 20),
         ],
       ),
       bottomNavigationBar: const BottomNavBar(),
